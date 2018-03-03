@@ -2,13 +2,56 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="icon" href="img\icon.png">
+    <link rel="icon" href="img\icon.png ">
     <link rel="stylesheet" href="INDEX.CSS">
     <title>buscador</title>
+    <nav>
+      <small>
+        <a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+        <a href="https://www.google.com.mx/imghp?hl=es&tab=wi">Imágenes</a>
+        <a href="img\apl.JPG">aplicaciones</a>
+        <button onclick="nav">
+          <a href="https://accounts.google.com/ServiceLogin/signinchooser?hl=es&passive=true&continue=https%3A%2F%2Fwww.google.com.mx%2Fwebhp%3Fhl%3Des%26sa%3DX%26ved%3D0ahUKEwiqt9_D-8nZAhUJcq0KHXJfAFwQPAgD&flowName=GlifWebSignIn&flowEntry=ServiceLogin">iniciar sesión</a>
+        </button>
+      </small>
+    </nav>
   </head>
   <body>
-    <h1>Buscador</h1>
+    <div class="image">
+      <a href="https://www.google.com.mx/search?hl=es&dcr=0&q=da+vinci&sa=X&ved=0ahUKEwjbpNmnlMrZAhUFXqwKHdXBCOMQ7xYIJSgA&biw=1517&bih=653"><img src="img\vinci.jpg" alt="logo de Google"></a>
+    <form method="get" action="" target="_blank">
+      <label for="google"></label>
+      <input id="google" name="text" type="search">
+      <p></p>
+      <button onclick="searchinit"class="home" type="button" name="button">
+        <a href="browser">Buscar en Google</a>
+      </button>
 
-<script src="INDEX.js"type="text/javascript"></script>
+      <button onclick="home" class="home" type="button"><a class="google" href="https://www.google.com/doodles">Me siento con suerte</a>
+      </button>
+      <small>
+        <p class="G">Ofrecido por Google en: <a class="GG" href="https://www.google.com.mx/">Español (Latinoamérica)</a> </p>
+      </small>
+    </form>
+  </div>
+    <footer>
+      <div class="footer-div contac-info">
+      <p>México</p>
+      </div>
+    </footer>
+    <footer>
+      <small>
+        <div class="footer-div info">
+            <a href="https://www.google.com.mx/intl/es_mx/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+            <a href="https://www.google.com.mx/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Negocios</a>
+            <a href="https://www.google.com.mx/intl/es_mx/about/?utm_source=google.com&utm_medium=referral&utm_campaign=hp-footer&fg=1">Acerca de</a>
+
+            <a class="info_2"  href="">Preferencias</a>
+            <a class="info_2"  href="https://www.google.com.mx/intl/es_mx/policies/terms/regional.html">Condiciones</a>
+            <a class="info_2"  href="https://www.google.com.mx/intl/es_mx/policies/privacy/?fg=1">Privacidad</a>
+        </div>
+      </small>
+    </footer>
+    <script src="INDEX.js"type="text/javascript"></script>
   </body>
 </html>
